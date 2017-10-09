@@ -21,6 +21,8 @@ si (array1[i] == [i] > 1 && [i] % 2 = 0){
 }
 else {
   i + (array1 *2) = resultado2
+
+  function isValidCard
 }if {
   resultado2 % 10 == 0
   resultado2 == true /Tarjeta de credito valida/
