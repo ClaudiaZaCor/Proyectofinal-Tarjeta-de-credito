@@ -13,20 +13,21 @@ var numberOfCreditCard = array []
 
 */ Segun el algoritmo de Luhn, tenemos que multiplicar por 2 a los digitos que ocupan las posiciones pares empezando por el final, por eso aplicare un reverse /*
 var invertedNumber = numberOfCreditCard.reverse ();
-var invertedNumber = array1
+var invertedNumber = i
 
-si (array1[i] == [i] > 1 && [i] % 2 = 0){
-  array1 * 2= resultado1
-  console.log ("Mostrando los numero pares")
-}
-else {
-  i + (array1 *2) = resultado2
+//Aplicando el algoritmo de Luhn//
 
-  function isValidCard
-}if {
-  resultado2 % 10 == 0
-  resultado2 == true /Tarjeta de credito valida/
-} else {
-  resultado2 == false
-}
+      variable digito = parseInt(invertedNumber.charAt(i), 10); */aplico parseInt para asegurarme que el typeof sea number y charAt para localizar*/
+        si (digito % 2 == 0 && digito <9 ) { //Definiendo la multiplicacion por 2 a los digitos pares menores que 9//
+            (digito * 2) ;
+            
+      } de otro modo {
+          (digito + (digito * 2)) // Ejecutando la suma de los digitos impares con el resultado anterior//
+      
+//Aplicando la funcion//
+      var resultado = funcion esUnaTarjetaValida (digito, (digito * 2));
+       retorna ((digito + (digito * 2)) % 10) == 0;
+      }
+  
+  esUnaTarjetaValida (70) /*Llamando a la funcion, en este caso, que la suma resulte 70, la tarjeta seria valida, ya que 70 modulo de 10 es 0*/
 fin
