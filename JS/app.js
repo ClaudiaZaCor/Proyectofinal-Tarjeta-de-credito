@@ -13,13 +13,13 @@
 
     //Aplicando el algoritmo de Luhn//  
       var digit = parseInt(invertedNumber.charAt(i), 10);
-        if (digit % 2 == 0 && digit <9 ) {
+        if (digit % 2 == 0 && digit <9 ) { //Definiendo la multiplicacion por 2 a los digitos pares menores que 9//
             (digit * 2) ;
             
       } else {
-          (digit + (digit * 2)) 
+          (digit + (digit * 2)) // Ejecutando la suma de los digitos impares con el resultado anterior//
       
-
+//Aplicando la funcion//
       var result = function isValidCard (digit, (digit * 2));
        return ((digit + (digit * 2)) % 10) == 0;
       }
