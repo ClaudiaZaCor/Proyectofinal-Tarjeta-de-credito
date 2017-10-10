@@ -12,7 +12,7 @@ var numberOfCreditCard = [prompt ("Inserte el numero de su tarjeta.")];
       console.log ("Mostrando los numeros pares");
     }
     else {
-      [i] + resultado 1 = resultado2;
+      [i] + resultado1 = resultado2;
     }
     function isValidCard
     }if {
@@ -21,5 +21,3 @@ var numberOfCreditCard = [prompt ("Inserte el numero de su tarjeta.")];
     } else {
     resultado2 == false
     }
-
-
